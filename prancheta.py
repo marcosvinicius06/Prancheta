@@ -1,10 +1,9 @@
 import random
 x = ("ate mais")
-Sim = 1
-N = 2
-print("1 é sim , 2 é não") 
-if input (Sim = 1):
-    input("Voce comecou")
+print("Você quer começar?")
+n1 = input()
+if n1 == "sim" :
+    print("Voce comecou")
     nomo = input("qual o seu nome?")
     idade = input("qual a sua idade?")
     print("--------------")
@@ -15,4 +14,3 @@ if input (Sim = 1):
     print(x)
 else:
     print(x)
-
